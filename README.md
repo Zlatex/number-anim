@@ -1,4 +1,4 @@
-# Animating numbers on pure javascriptcript
+# Animating numbers on pure javascript
 
 Just connect the file via
 ```html 
