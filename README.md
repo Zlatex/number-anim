@@ -1,9 +1,19 @@
 # Animation of numbers on vanilla javascript
 
-Just connect the file via```html <script src="anim.js"></script>``` and add```js new NumberAnim(classname)``` where classname is class of your text.
+Just connect the file via
+```html 
+<script src="anim.js"></script>
+```
+and add
+```js
+new NumberAnim(classname)
+```  
+where classname is class of your text.
 
 The text should look like this:
-```htm<h2 class="number" data-delay="30" data-step="1" data-max="120">0</h2>```
+```html
+<h2 class="number" data-delay="30" data-step="1" data-max="120">0</h2>
+```
 
 h2 can be p,span,h1,div etc.
 
