@@ -8,14 +8,14 @@ and add
 ```js
 new NumberAnim(classname)
 ```  
-where classname is class of your text.
+to your script, where classname is class of your text.
 
 The text should look like this:
 ```html
 <h2 class="number" data-delay="30" data-step="1" data-max="120">0</h2>
 ```
 
-h2 can be p,span,h1,div etc.
+h2 can be p, span, h1, div etc.
 
 
 `data-delay` - the time after which the digit will increase by the number specified in the `data-step`.
