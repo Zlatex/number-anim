@@ -22,4 +22,4 @@ h2 can be p, span, h1, div etc.
 
 **`data-max`** - maximum number (Which should be displayed at the end of the animation)
 
-**value** ( 0 ) - The number at which the animation will start
+**value** ( 0 ) - the number from which the animation will start
