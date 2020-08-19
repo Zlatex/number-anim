@@ -8,7 +8,7 @@ and add
 ```js
 new NumberAnim(classname)
 ```  
-to your script, where classname is class of your text.
+to your script where classname is class of your text.
 
 The text should look like this:
 ```html
