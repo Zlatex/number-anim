@@ -1,10 +1,10 @@
 class NumberAnim{
-    constructor(classname){
-        this.class = classname;
+    constructor(querySelector){
+        this.querySelector = querySelector;
         this.check(this);
     }
     start(){
-        var number = document.querySelector(this.class),
+        var number = this.querySelector,
         start = +number.innerHTML, end = +number.dataset.max, 
         step = +number.dataset.step, delay = +number.dataset.delay;
         var interval = setInterval(function() {
@@ -15,7 +15,7 @@ class NumberAnim{
     }
     check(t){
         window.addEventListener('scroll', function onScroll() {
-            var number = document.querySelector(t.class),
+            var number = t.querySelector,
                 numberTop = number.getBoundingClientRect().top;
             if(window.pageYOffset > numberTop - window.innerHeight / 2) {
                 this.removeEventListener('scroll', onScroll);
@@ -25,5 +25,7 @@ class NumberAnim{
     }
 }
 
-
-
+var AnimateNumbers = document.querySelectorAll('.animateNum');
+AnimateNumbers.forEach((item)=>{
+    new NumberAnim(item)
+})
