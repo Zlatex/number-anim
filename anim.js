@@ -5,8 +5,8 @@ class NumberAnim{
     }
     start(){
         var number = this.querySelector,
-        start = +number.innerHTML, end = +number.dataset.max, 
-        step = +number.dataset.step, delay = +number.dataset.delay;
+        start = +number.innerHTML | 0, end = +number.dataset.max, 
+        step = +number.dataset.step | 1, delay = +number.dataset.delay | 20;
         var interval = setInterval(function() {
             start += step;
             number.innerHTML = start >= end ? end : start;
