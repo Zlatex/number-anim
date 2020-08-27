@@ -1,5 +1,7 @@
 # Animating numbers on pure javascript
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/67581fb7-d882-4869-9674-e0a60ade0bef/deploy-status)](https://number-anim.netlify.app/anim.js)
+
 Just connect the file via
 ```html 
 <script src="number-anim.netlify.app/anim.js"></script>
