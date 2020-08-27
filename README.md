@@ -4,7 +4,7 @@
 
 Just connect the file via
 ```html 
-<script src="number-anim.netlify.app/anim.js"></script>
+<script src="https://number-anim.netlify.app/anim.js"></script>
 ```
 
 and add classname '`animateNum`' to your text.
